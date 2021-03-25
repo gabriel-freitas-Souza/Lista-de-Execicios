@@ -1,11 +1,9 @@
 /*
+ *
  * ===  ===  === Exercício  2 ===  ===  ===
  * CONSTRUA UM ALGORITMO QUE RECEBA TRES
  * INTEIROS DISTINTOS E INFORME QUAL E MAIOR.
  * === === === === === === === === === ===
- *
- * OBS.: ESSE PROGRAMA NÃO LEVAR EM CONSIDERACAO A
- * MENTE MALIGNA DO USUÁRIO ENTÃO SO DIGITE NUMEROS.
  *
  */
 #include <stdio.h>
