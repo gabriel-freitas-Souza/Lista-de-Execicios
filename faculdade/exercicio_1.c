@@ -1,13 +1,11 @@
 /*
+ *
  * ===  ===  === Exercício  1 ===  ===  ===
  * ESCREVA UM PROGRAMA QUE RECEBA UM NÚMERO
  * INTEIRO (DIGITADO PELO USUÁRIO) E INFORME
  * SE É PAR OU ÍMPAR E SE É POSITIVO OU
  * NEGATIVO (CONSIDERE 0 COMO POSITIVO).
  * === === === === === === === === === ===
- * 
- * OBS.: ESSE PROGRAMA NÃO LEVAR EM CONSIDERACAO A
- * MENTE MALIGNA DO USUÁRIO ENTÃO SO DIGITE NUMEROS.
  *
  */
 #include <stdio.h>
