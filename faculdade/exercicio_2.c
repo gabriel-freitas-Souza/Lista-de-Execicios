@@ -31,7 +31,7 @@ int main() {
     }else if(numero[2] > numero[0] && numero[2] > numero[1]){// Verificar se  teceiro numero \\
                                                                 digitado e o maior.
         printf("O NUMERO %i E MAIOR QUE %i E %i", numero[2], numero[0], numero[1]); // Resultado 3
-    }// 'Copr.Gabriel_Freitas_Souza'
+    }
     //SAIDA
     return 0;
-}
+}// 'Copr.Gabriel_Freitas_Souza'
