@@ -15,7 +15,7 @@
 
 int main() {
     // VARIAVEIS
-    int numero[2]; // Armazenar os 3 numeros digitados.
+    int numero[3]; // Armazenar os 3 numeros digitados.
     // LAÇO DE REPEDIÇÃO && ENTRADA //
     for(int i = 0;i < 3;i++){ // Pedir os 3 numeros ao usuario.
         printf("DIGITE O NUMERO %i : \n--> ",i+1); // Pedir ao usuarioo numero(imprimi).
