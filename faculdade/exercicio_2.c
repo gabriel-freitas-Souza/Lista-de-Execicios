@@ -1,28 +1,36 @@
 /*
- *
  * ===  ===  === Exercício  2 ===  ===  ===
  * CONSTRUA UM ALGORITMO QUE RECEBA TRES
  * INTEIROS DISTINTOS E INFORME QUAL E MAIOR.
  * === === === === === === === === === ===
  *
+ * === === ===  LOGICA DO PROGRAMA === === === ===
+ *   O PROGRAMA PEDIR TRES NUMEROS AO USUARIO E
+ *  DEPOIS COMPARAR PARA VER QUAL É MAIOR.
+ *   E RETORNAR PARA O USUARIO A RESPOSTA.
+ * == === === === === === === === === === === ===
+ *
  */
 #include <stdio.h>
 
 int main() {
-    //VARIAVEIS
-    int number[4]; // CRIAR UM VETOR DE 4 POSICOES PARA ARMAZENAR OS 3 NUMEROS DIGITADOS
-    // LAÇO DE REPEDIÇÃO/ENTRADA
-    for(int i = 1;i <= 3;i++){ // PEDIR OS 3 NUMEROS AO USUÁRIO 
-        printf("DIGITE O NUMERO %i : \n--> ",i); // PEDIR PARA O NUMEOR AO USUÁRIO
-        scanf("%d",&number[i]); // LER E GUARDA DENTRO DO VETOR 
+    // VARIAVEIS
+    int numero[2]; // Armazenar os 3 numeros digitados.
+    // LAÇO DE REPEDIÇÃO && ENTRADA //
+    for(int i = 0;i < 3;i++){ // Pedir os 3 numeros ao usuario.
+        printf("DIGITE O NUMERO %i : \n--> ",i+1); // Pedir ao usuarioo numero(imprimi).
+        scanf("%d",&numero[i]); // Ler e guarda o numero digitado no vetor.
     }
-    //LAÇO CONDICIONAL 
-    if(number[1] > number[2] && number[1] > number[3]){ // VERIFICAR SE PRIMEIRO NUMERO DIGITADO E MAIOR
-        printf("O NUMERO %i E MAIOR QUE %i E %i",number[1],number[2],number[3]); // RESULTADO 1
-    }else if(number[2] > number[1] && number[2] > number[3]){// VERIFICAR SE SEGUNDO NUMERO DIGITADO E MAIOR
-        printf("O NUMERO %i E MAIOR QUE %i E %i",number[2],number[1],number[3]); // RESULTADO 2
-    }else if(number[3] > number[1] && number[3] > number[2]){// VERIFICAR SE TERCEIRO NUMERO DIGITADO E MAIOR
-        printf("O NUMERO %i E MAIOR QUE %i E %i",number[3],number[1],number[2]); // RESULTADO 3
+    //LAÇO CONDICIONAL
+    if(numero[0] > numero[1] && numero[0] > numero[2]){ // Verificar se primeiro numero  \\
+                                                           digitado e o maior.
+        printf("O NUMERO %i E MAIOR QUE %i E %i", numero[0], numero[1], numero[2]); // Resultado 1
+    }else if(numero[1] > numero[0] && numero[1] > numero[2]){//Verificar se primeiro numero \\
+                                                                digitado e o maior.
+        printf("O NUMERO %i E MAIOR QUE %i E %i", numero[1], numero[0], numero[2]); // Resultado 2
+    }else if(numero[2] > numero[0] && numero[2] > numero[1]){// Verificar se  teceiro numero \\
+                                                                digitado e o maior.
+        printf("O NUMERO %i E MAIOR QUE %i E %i", numero[2], numero[0], numero[1]); // Resultado 3
     }
     //SAIDA
     return 0;
